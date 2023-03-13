@@ -1,0 +1,12 @@
+####
+GET http://{{host}}:{{port}}/caasac/initial_data/import/tax_rate HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+GET http://{{host}}:{{port}}/caasac/initial_data/initialize  HTTP/1.1
+Content-Type: application/json
+
+{
+}

@@ -1,0 +1,14 @@
+
+
+POST http://{{host}}:{{port}}/caasac/account/get HTTP/1.1
+Content-Type: application/json
+
+{
+   "accountId":112312312
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/get_list HTTP/1.1
+Content-Type: application/json
+
+{
+}
