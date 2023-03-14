@@ -11,7 +11,14 @@ Content-Type: application/json
 {
 }
 ####
-GET http://{{host}}:{{port}}/caasac/initial_data/initialize  HTTP/1.1
+GET http://{{host}}:{{port}}/caasac/initial_data/import/journal?filename=journal.csv
+Content-Type: application/json
+
+{
+}
+
+####
+GET http://{{host}}:{{port}}/caasac/initial_data/import/currency?filename=currency_new2.csv
 Content-Type: application/json
 
 {

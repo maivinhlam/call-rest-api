@@ -1,0 +1,966 @@
+GET http://{{host}}:{{port}}/caasac/initial_data/initialize  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+GET http://{{host}}:{{port}}/caasac/initial_data/import/handlers) HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+GET http://{{host}}:{{port}}/caasac/initial_data/import/handlers) HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/get        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/get_list   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/append     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/set        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/delete     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/move       HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/accounting_info/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/accounting_info/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/client/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/client/get         HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/client/get_list    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/client/append      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/client/set         HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/client/delete      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/company_info/get   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/company_info/set   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/get       HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/append    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/set       HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/delete    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/move      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/get     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/set     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/department/move    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/get    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/set    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/set_current_fiscal_year  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/get_current_fiscal_year  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/next_fiscal_year  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/fixed_financial_close  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/free_string_data/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/free_string_data/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/free_string_data/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/free_string_data/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/accounting_info/code_size/handlers) HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/accounting_info/code_size/handlers) HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/get_default   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/get           HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/get_list      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/append        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/set           HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/delete        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/move          HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/get_carry_forward  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/ledger_setting/move  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/get         HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/get_list    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/append      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/set         HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/delete      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/region/move        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/get        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/get_list   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/append     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/set        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/delete     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/segment/move       HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/get       HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/append    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/set       HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/delete    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/move      HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/get   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/set   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/move  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance_setting/move  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_number/move  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher/get        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher/append     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher/set        HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher/delete     HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher/get_calculated_record  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_filter/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_filter/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_filter/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_filter/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/voucher_filter/get_default  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/select_option/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/get    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/append  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/set    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/delete  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/move   HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tab/append         HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tab/delete         HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/format/get_currency  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/format/get_date    HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/format/get_exchange_rate  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/opening_balance/get_account_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/opening_balance/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/opening_balance/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/import_center/import  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/import_center/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance/get_default_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/trial_balance/put_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/change_of_balance/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/change_of_balance/get_default_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/change_of_balance/put_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/language_type_setting/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/language_type_setting/get  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/language_type_setting/set  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category_summary_list/get_default_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category_summary_list/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/change_of_sub_account_balance/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/change_of_sub_account_balance/get_default_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/change_of_sub_account_balance/put_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account_balance/get_list  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account_balance/get_default_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account_balance/put_conditions  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/account/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/sub_account/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/currency/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_category/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/tax_rate/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/book/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/amount_unit/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+POST http://{{host}}:{{port}}/caasac/fiscal_year/get_select_options  HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
+GET http://{{host}}:{{port}}/caasac/docs/* HTTP/1.1
+Content-Type: application/json
+
+{
+}
+####
